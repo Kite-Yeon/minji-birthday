@@ -1,0 +1,26 @@
+@keyframes letsDance {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scale(0.5) translate(-200vh, 100vw) rotateZ(180deg);
+  }
+  50% {
+    transform: scale(2) translate(100vh, -100vw) rotateZ(360deg)
+      skew(30deg, 20deg);
+  }
+  60% {
+    transform: scale(0.5) translate(100vh, 100vw);
+  }
+  75% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.thanksalot {
+  color: tomato;
+  animation: letsDance 3s ease-in-out infinite;
+}
